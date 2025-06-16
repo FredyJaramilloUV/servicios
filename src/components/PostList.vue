@@ -15,5 +15,17 @@
   })
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.post-list {
+  width: 95vw;
+  height: 75px;
+  padding: 20px;
+  list-style-type: none;
+}
+.post-list li {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  color: $red ;
+}
 </style>
