@@ -21,11 +21,16 @@
   height: 75px;
   padding: 20px;
   list-style-type: none;
-}
-.post-list li {
+
+  li {
   padding: 10px;
   width: 100%;
   border: 1px solid #ccc;
   color: $red ;
+  }
+
+  li:hover {
+    background-color: darken($color: #0c0c0c, $amount: 1%)
+  }
 }
 </style>
